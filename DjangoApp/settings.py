@@ -31,7 +31,9 @@ ALLOWED_HOSTS = (
     '*',
 )
 """
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    '*',
+    ]
 
 # Application definition
 
