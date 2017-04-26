@@ -32,7 +32,8 @@ ALLOWED_HOSTS = (
 )
 """
 ALLOWED_HOSTS = [
-    '*',
+    'localhost',
+    'djangotdd1.azurewebsites.net',
     ]
 
 # Application definition

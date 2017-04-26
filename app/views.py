@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 Definition of views.
 """
@@ -14,7 +15,7 @@ def home(request):
         request,
         'app/index.html',
         {
-            'title':'Home Page',
+            'title':'首页',
             'year':datetime.now().year,
         }
     )
@@ -26,8 +27,8 @@ def contact(request):
         request,
         'app/contact.html',
         {
-            'title':'Contact',
-            'message':'Your contact page.',
+            'title':'联系我们',
+            'message':'我们是谁？',
             'year':datetime.now().year,
         }
     )
@@ -39,7 +40,7 @@ def about(request):
         request,
         'app/about.html',
         {
-            'title':'About',
+            'title':'关于我们',
             'message':'Your application description page.',
             'year':datetime.now().year,
         }
